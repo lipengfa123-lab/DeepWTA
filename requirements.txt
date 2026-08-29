@@ -1,0 +1,10 @@
+numpy>=1.26,<3
+torch>=2.2
+torch-geometric>=2.5
+opencv-python>=4.8
+pandas>=2.1
+matplotlib>=3.8
+scikit-learn>=1.4
+scipy>=1.11
+PyYAML>=6.0
+tqdm>=4.66

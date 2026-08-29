@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "deepwta": {
+    "family": "DeepWTA",
+    "seed": 2026,
+    "input_contract": {
+      "num_weapon_types": 10,
+      "num_schemes": 10,
+      "dataset_version": "v5"
+    },
+    "profiles": {
+      "standard": {
+        "display_name": "DeepWTA-Standard",
+        "solver_mode": "standard",
+        "artifacts": {
+          "best": {
+            "path": "checkpoints/deepwta_standard/best.pt",
+            "bytes": 13114930,
+            "sha256": "528b9e5d044a7401ff5671b80d10df74d47ea8241535a8370e2c392fc4514c8b"
+          },
+          "test800_best_full_feasible": {
+            "path": "checkpoints/deepwta/e2e_deepwta_wta_e2e_v1_seed2026/best_full_feasible.pt",
+            "bytes": 13115861,
+            "sha256": "52abbbe6610d7913278f4b0a6b0baacc7c0bd880a3a1516b3b26a2c1f85974c3"
+          },
+          "test800_best": {
+            "path": "checkpoints/deepwta/e2e_deepwta_wta_e2e_v1_seed2026/best.pt",
+            "bytes": 13105001,
+            "sha256": "ab978a2799a3a8c17923dc056dc49962eecec004794b41be7641613e62b644ae"
+          },
+          "test800_last": {
+            "path": "checkpoints/deepwta/e2e_deepwta_wta_e2e_v1_seed2026/last.pt",
+            "bytes": 13105129,
+            "sha256": "5f436e5e429a3e7efd1efefb681d5f35d6197e13a80aeeff43224269ddd03b0c"
+          }
+        }
+      }
+    }
+  },
+  "auxiliary": {
+    "conflict_gnn": {
+      "display_name": "Trajectory-Conflict-GNN",
+      "role": "optional DeepWTA-Standard training surrogate",
+      "artifacts": {
+        "best_calibrated": {
+          "path": "checkpoints/conflict_gnn/best_calibrated.pt",
+          "bytes": 1159531,
+          "sha256": "e72061190f538f1ecf7f73f01add05fba598a6a65bc608e10e5ff4cc953439c3"
+        },
+        "best_raw": {
+          "path": "checkpoints/conflict_gnn/best_raw.pt",
+          "bytes": 3466512,
+          "sha256": "186d69b4520ca36aa32fa095a0202ddf618faf04dc50ad5ef7210bbca42d8ca8"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+name: deepwta
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy>=1.26,<3
+  - pandas>=2.1
+  - scipy>=1.11
+  - scikit-learn>=1.4
+  - matplotlib>=3.8
+  - pyyaml>=6.0
+  - tqdm>=4.66
+  - pip:
+      - torch>=2.2
+      - torch-geometric>=2.5
+      - opencv-python>=4.8
+      - -e .

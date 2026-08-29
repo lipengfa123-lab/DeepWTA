@@ -1,0 +1,20 @@
+{
+  "protocol": "reviewer2-input-export-v1",
+  "dataset_name": "wta_e2e_v1",
+  "dataset_manifest": "/home/lipf/Base/DeepWTA/data/splits/wta_e2e_v1.json",
+  "dataset_root": "/home/lipf/Base/DeepWTA/data/processed/wta_e2e_v1",
+  "split": "test",
+  "case_count": 800,
+  "group_definition": "A/B/C = scenario_index modulo 3",
+  "stored_inputs": [
+    "base_coords[N,2]",
+    "target_coords[M,2]",
+    "B_inventory[K,N]",
+    "U_scheme_demand[L,K,M]",
+    "G_damage_level[L,M]",
+    "G_th_damage_threshold[M]",
+    "Q_intercept_prob[K,N,M]",
+    "D_distance[N,M]",
+    "X_reachable[K,N,M]"
+  ]
+}

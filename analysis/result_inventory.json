@@ -1,0 +1,11 @@
+{
+  "method": "DeepWTA-Standard",
+  "details": "results/reviewer2_release/test800_final/main/deepwta/test_details.csv",
+  "rows": 800,
+  "unique_scenarios": 800,
+  "solution_inventory": {
+    "path": "results/reviewer2_release/test800_final/main/deepwta/solutions/DeepWTA-Standard",
+    "files": 0,
+    "nonempty_files": 0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "dataset_name": "wta_small",
+  "scale": "small",
+  "seed": 2026,
+  "root": "data/processed/wta_small",
+  "map_hash": {"friendly_map_sha256": "fixture"},
+  "generation_config": {"wta": {"num_weapons": 10, "total_weapons": 50}}
+}

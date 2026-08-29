@@ -1,0 +1,387 @@
+{
+  "manifest": "data\\splits\\wta_e2e_v1.json",
+  "manifest_sha256": "25c7274987aef9a0ec16a8565bba5e89252b86a693bdaa6832b5768c2be64db5",
+  "dataset_name": "wta_e2e_v1",
+  "version": "v5",
+  "seed": 3026,
+  "split": {
+    "train": 6000,
+    "val": 800,
+    "test": 800,
+    "base_seed": 3026,
+    "shard_size": 128
+  },
+  "map_hash": {
+    "friendly_map_sha256": "a30b008b34f051dda9ff7f0594741a15f3d601d2b01420220e9b8965d31b1aad",
+    "enemy_map_sha256": "7fa85f36df34442e61c9ca86ff8d50c9665b9b112bccdbb33a923a32baca70e3"
+  },
+  "files": [
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0000.pt",
+      "sha256": "35be4120c8f1f6388b0ba68c7298d440e9fb9c7d0d3f895926b6030a669ead17",
+      "bytes": 70337123
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0001.pt",
+      "sha256": "b6a4ffa651381d881560baf3234617b010c64caa1fe229fa6e8baa438f7cf589",
+      "bytes": 52387875
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0002.pt",
+      "sha256": "7a485870307b41478ed76d3e94199b3baa3bdecb9d4d0cbe0faf1ab8d9121500",
+      "bytes": 62361571
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0003.pt",
+      "sha256": "f7eca3c32a96a86d9704c2f5860de634a0da2e36df192aaa863380b9ea816d53",
+      "bytes": 69363619
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0004.pt",
+      "sha256": "51f9385c3f957259ca45c0989b2865358a65c341608b40e7a62aa0a0df225a12",
+      "bytes": 60607971
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0005.pt",
+      "sha256": "6f3a0b46bffab4f18b6dbf41b789aeb7b0ac7d10caeed4b33282a870f89b1376",
+      "bytes": 57518435
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0006.pt",
+      "sha256": "48f13d66e6dd0d021a7e435b56dcb355313cad6d3c2c4a422298aefedc20ecd5",
+      "bytes": 56975971
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0007.pt",
+      "sha256": "116e73b734a5cdb897d5f605bd2ca2efbba65741c4c1c56c4b87d3a208bbea04",
+      "bytes": 61055139
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0008.pt",
+      "sha256": "111ee650b8720dee910e638a1940900990780669c1b91ecf8a3ea3ab5c86dbdd",
+      "bytes": 59338851
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0009.pt",
+      "sha256": "b4398ab621103630debaacb734b8dd3e09153d9b13badd4df41a349ee082be5f",
+      "bytes": 51971875
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0010.pt",
+      "sha256": "986dfb0091a8282c06f20227017080d83910a0407a8cf7ecb12bce6f2138665a",
+      "bytes": 54154787
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0011.pt",
+      "sha256": "a08ddec8cadabd13d99bc1881fcb3aac90de73ba5e8e23ab5d86e2d39dbec59c",
+      "bytes": 67095459
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0012.pt",
+      "sha256": "5f299ee047f18a1153ed9034df5d807f479ce5ba5ba31bf3e005a3519e9deeca",
+      "bytes": 56601059
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0013.pt",
+      "sha256": "5e522e7417f23ec00fde7b99649c97810a92bf9ced7ae8cc05e54815dbd60bc1",
+      "bytes": 65728419
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0014.pt",
+      "sha256": "4f476835a565f6aeaa0c7ae47e00091c3095601210082b1f9ad6fe10783b8a56",
+      "bytes": 60752611
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0015.pt",
+      "sha256": "085786f0066ce78e719f832a3969ee2fe4ddfd835ca73ee7fb197fa8f75f59dd",
+      "bytes": 57553955
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0016.pt",
+      "sha256": "93a7d27cfa6555bf6e74f3e7a72de90a92ad627a9326b6d46f3544e8feef2d2f",
+      "bytes": 55588003
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0017.pt",
+      "sha256": "9a4d5a506a94aa093c7a76b3dee63a574df4fc06168d7082001c25a58b694e59",
+      "bytes": 66336803
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0018.pt",
+      "sha256": "82cbb7ec366edd8a503c16daffdccea937367337253542ec4352d94f1bbf3632",
+      "bytes": 57699107
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0019.pt",
+      "sha256": "73cc34db060431435ffb541fb153b9767e1c97d03e48432dabe6323c15a5b741",
+      "bytes": 51519779
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0020.pt",
+      "sha256": "b3098f865206dea616731db9fc62538273f4d87923460f91b3d9d4b59fde737f",
+      "bytes": 64552675
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0021.pt",
+      "sha256": "04beb6588c461ab7e0560ac510efc6413096f9989f7ba365aca60f536704abd8",
+      "bytes": 62395363
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0022.pt",
+      "sha256": "796a72f6dd1fec0970fb9e0d31f7e40c3c2aa3e30d7f252770279cfbf95b8b9d",
+      "bytes": 60450083
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0023.pt",
+      "sha256": "8a4305c5054aba61728b87ba5f7c6506b559cfd03b8f0731796135b2453fc967",
+      "bytes": 57579939
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0024.pt",
+      "sha256": "b00587786c5b1c8d78ba56a1872d649697bf27ca66e9b42a031c8e9ba5a0bac4",
+      "bytes": 63673315
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0025.pt",
+      "sha256": "4454af1c3a3fc0fc34680a72a9f2d1da8508dc0f4f5c95a96a3ea760079dfc28",
+      "bytes": 55422243
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0026.pt",
+      "sha256": "65001e90d14b29096e12d1a7a40b640fb4e61bc084a0637c9e495a19fd957d82",
+      "bytes": 59169699
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0027.pt",
+      "sha256": "39fbf4293863d6699d3800ae3f475ee18df1cd5fc5ad6fe66cf1232ab00e9a64",
+      "bytes": 64252323
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0028.pt",
+      "sha256": "b7192f09db531b8fb5a6297761d010d5a9138ef2a74c1dcfeea24f944d586025",
+      "bytes": 62596707
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0029.pt",
+      "sha256": "89d71c6d60d9806d2c1784929af2b3967bdc478706c58a7135ecede7fb482056",
+      "bytes": 67171875
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0030.pt",
+      "sha256": "34829534148b48ddfd5c3082046e394e35e22dcd81ab4dfdb3bd27474e937191",
+      "bytes": 65656483
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0031.pt",
+      "sha256": "242415698681ad7d8e24846d7cccfb882f2413277be793dd25e19b5b71c9ea7a",
+      "bytes": 67160803
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0032.pt",
+      "sha256": "97d77c32569401dace7a3f8fb37e3ce2cda3c3a6a5b0818c67e880fe14e64403",
+      "bytes": 63796643
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0033.pt",
+      "sha256": "911838f1868ce19534c5f2a7e74c3259d0bee28437da890376cb77dc1b1ad8d7",
+      "bytes": 62164579
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0034.pt",
+      "sha256": "10c074ad648e12352bcbe47cebc9a77ed2852e243ed1a0559333bafa245bf33b",
+      "bytes": 70932707
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0035.pt",
+      "sha256": "7b6be2e32d66ab3b556ed8ffdccc37950c7d7dee951ce4002031af4acc8e4b74",
+      "bytes": 61087843
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0036.pt",
+      "sha256": "3bf965b2909f2455ac213e6afb89f2ebf42dc85fbbbdc375bb25b11b0cfee2bd",
+      "bytes": 67123555
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0037.pt",
+      "sha256": "c024d3347e269b0206eb972c99d7c3e4b6e041856ac2432bb3c59c6f7a24879b",
+      "bytes": 66295459
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0038.pt",
+      "sha256": "129f19d12cbefbd3b93c3764b654aab1d88580c6cdfd3f088f259fe73b5e8a3c",
+      "bytes": 65268899
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0039.pt",
+      "sha256": "9c3f79d7db555c5dfceb2fba6b0b014135dd3b055c4fa23686bb14ebf7b1a42d",
+      "bytes": 65235939
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0040.pt",
+      "sha256": "2f956aa7d4ed08072c214dc2561eba7e49179bc57fc47ee71af0715c469c2a75",
+      "bytes": 53157987
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0041.pt",
+      "sha256": "3b1507ef274e7ba1ba5b8d9fc0b8ab52b28079a8a848373676f4509fd548c67c",
+      "bytes": 65874339
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0042.pt",
+      "sha256": "b7784ca84aa659a5bba78814a8f66838e10ab27bede94822667b2fda4cd71087",
+      "bytes": 53722019
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0043.pt",
+      "sha256": "85b9ddfb82878da0374ab68513d407521fe65d82df5d5086445be064574773db",
+      "bytes": 64764067
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0044.pt",
+      "sha256": "a4ea21436248ae8f70bc497ed1e3816ba7587c1de9be20b3f6d763d08cc0b5a8",
+      "bytes": 62919843
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0045.pt",
+      "sha256": "aeac4044d9b6ba66fb034c57e47fc103731142fe67eb065132d64990cc7ccabc",
+      "bytes": 63196835
+    },
+    {
+      "split": "train",
+      "path": "data\\processed\\wta_e2e_v1\\train\\part_0046.pt",
+      "sha256": "84c6af4fbc1b31bee8094dfb870b97a97dc340f86731335be0a7d817b0a0868d",
+      "bytes": 55361059
+    },
+    {
+      "split": "val",
+      "path": "data\\processed\\wta_e2e_v1\\val\\part_0000.pt",
+      "sha256": "5df53a7ab1e33f9d32ca6eb38f49f780da3762424a322d901e31ca4a729421fa",
+      "bytes": 61753571
+    },
+    {
+      "split": "val",
+      "path": "data\\processed\\wta_e2e_v1\\val\\part_0001.pt",
+      "sha256": "753f513ae5dc2390119df8558b573b79f8f3b5ffb3eeeef536e9fcbe8c4476dc",
+      "bytes": 63582307
+    },
+    {
+      "split": "val",
+      "path": "data\\processed\\wta_e2e_v1\\val\\part_0002.pt",
+      "sha256": "84f2693621ade2c7cd7dda23d258372a3be0c438d690501781bc712be5cbb42f",
+      "bytes": 58026915
+    },
+    {
+      "split": "val",
+      "path": "data\\processed\\wta_e2e_v1\\val\\part_0003.pt",
+      "sha256": "b7179a86116746780e459f4b56bb1088aeaa0905fd03977de62c03c53e65c3fc",
+      "bytes": 54018403
+    },
+    {
+      "split": "val",
+      "path": "data\\processed\\wta_e2e_v1\\val\\part_0004.pt",
+      "sha256": "bf0c4f2e404a954bfe5737395d148056548d173637b7532017d76b5945282665",
+      "bytes": 60690019
+    },
+    {
+      "split": "val",
+      "path": "data\\processed\\wta_e2e_v1\\val\\part_0005.pt",
+      "sha256": "1bc642894228f9f621d93372868c63f258b45b5a2c7d24ed1154f3c12171f28e",
+      "bytes": 67048163
+    },
+    {
+      "split": "val",
+      "path": "data\\processed\\wta_e2e_v1\\val\\part_0006.pt",
+      "sha256": "0beb2ae5bd5d0dd2593ac6b9b52009e43bf7a8b16af374862656d76141ac90bb",
+      "bytes": 19936523
+    },
+    {
+      "split": "test",
+      "path": "data\\processed\\wta_e2e_v1\\test\\part_0000.pt",
+      "sha256": "8c8846bd595d33ea1b7a3852357e67da6928e52da12af97e7a091d8d6980abc1",
+      "bytes": 67463011
+    },
+    {
+      "split": "test",
+      "path": "data\\processed\\wta_e2e_v1\\test\\part_0001.pt",
+      "sha256": "ef59dc5fac0e0358dfc848803af37f8ca9798c900a7e1d47bf4f6760e579fca9",
+      "bytes": 58430307
+    },
+    {
+      "split": "test",
+      "path": "data\\processed\\wta_e2e_v1\\test\\part_0002.pt",
+      "sha256": "4f0e90f59e081f414f68ee469af4c0b429e9987c273b81f64474682e5f95903b",
+      "bytes": 54832035
+    },
+    {
+      "split": "test",
+      "path": "data\\processed\\wta_e2e_v1\\test\\part_0003.pt",
+      "sha256": "cf4081390b17db5acc2e1fb6b155b8c56b9056f9f666295f50a9f45959a710b2",
+      "bytes": 55146275
+    },
+    {
+      "split": "test",
+      "path": "data\\processed\\wta_e2e_v1\\test\\part_0004.pt",
+      "sha256": "fa696722a504139bf7b634c5416cba4e72a175419404b52a1b3c0c48a2c7efdf",
+      "bytes": 64727843
+    },
+    {
+      "split": "test",
+      "path": "data\\processed\\wta_e2e_v1\\test\\part_0005.pt",
+      "sha256": "f41638e79541aaabde6374d50f84e42f9e5738ca812680535fe7ebdf68353d59",
+      "bytes": 62195811
+    },
+    {
+      "split": "test",
+      "path": "data\\processed\\wta_e2e_v1\\test\\part_0006.pt",
+      "sha256": "e3e8206bedb84598e011449757fe58e98766abb1a345380485fccf29f021e7a7",
+      "bytes": 12374667
+    }
+  ],
+  "contract": "All subsequent DeepWTA, NIC, MultiHead-DQN-E2E and PointerNet-AC-E2E runs must use these exact bytes."
+}

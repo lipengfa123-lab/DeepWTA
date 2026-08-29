@@ -1,0 +1,38 @@
+# Python and test caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials*
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local runtime outputs (published result archives under results/ are retained)
+/wandb/
+/logs/
+/runs/
+/tmp/
+/cache/
+*.log
+
+# Reproduction scratch outputs
+/reproduced_results/
+
+# Large raw/processed datasets (regenerate via scripts/datagen; not tracked in git)
+/data/processed/
