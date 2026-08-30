@@ -8,6 +8,9 @@ checkpoints, tests, and retained Standard-only validation/test results.
 Non-standard solver variants, comparison baselines, ablations, and their
 artifacts are intentionally not part of this revision.
 
+Complete data path:
+https://drive.google.com/drive/folders/1tg3QSGjW2lbgVf59S_pk-nuHjza9bf12?usp=sharing
+
 ## Retained evaluation scope
 
 - Training: 6,000 instances
