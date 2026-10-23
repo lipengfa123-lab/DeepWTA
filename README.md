@@ -94,12 +94,3 @@ python scripts/evaluate_test800.py --limit 0 --device cuda
 
 New outputs go under `reproduced_results/test800/deepwta/` and do not overwrite
 the retained release results.
-
-## Integrity and limitations
-
-- TEST-800 IDs and bytes are frozen by `data/splits/wta_e2e_v1.freeze.json`.
-- Geometric crossing is a soft tactical objective, not a hard constraint.
-- TEST-800 contains 800 complete metric rows but no valid copied decision NPZs.
-- VAL-200 contains 200 complete metric rows and 200 non-empty decision NPZs.
-- This directory has no Git metadata, so removals cannot be restored with Git.
-- A project license and final citation metadata have not yet been supplied.
