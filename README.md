@@ -62,7 +62,7 @@ Per-method aggregates and statistics:
 
 ## Figures & reproduction scripts
 
-Plotting and table-building code (from `DeepWTA_master`):
+Plotting and table-building code:
 
 - `scripts/figures/` — figure script: `fig6_case_study.py`.
 - `scripts/visualization/` — battlefield solution-map renderers: `plot_deepwta_solution_map.py`, `plot_saved_wta_solution_map.py`.
