@@ -1,0 +1,240 @@
+{
+  "dataset": "wta",
+  "dataset_name": "wta_medium",
+  "scale": "medium",
+  "seed": 2026,
+  "map_hash": {
+    "friendly_map_sha256": "a30b008b34f051dda9ff7f0594741a15f3d601d2b01420220e9b8965d31b1aad",
+    "enemy_map_sha256": "7fa85f36df34442e61c9ca86ff8d50c9665b9b112bccdbb33a923a32baca70e3"
+  },
+  "generation_config": {
+    "map": {
+      "friendly_map": "data\\maps\\Friendly_Map.png",
+      "enemy_map": "data\\maps\\Enemy_Map.png",
+      "friendly_grid_step": 15,
+      "enemy_grid_step": 10,
+      "grid_margin": 30
+    },
+    "split": {
+      "train": 100,
+      "val": 20,
+      "test": 20,
+      "base_seed": 2026,
+      "shard_size": 128
+    },
+    "wta": {
+      "num_weapons": 10,
+      "num_schemes": 10,
+      "demand_max": 8,
+      "inventory_max": 80,
+      "reachability_rate": 0.97,
+      "min_reachable_bases": 3,
+      "level_resource_gap": 0.15,
+      "damage_threshold_probs": [
+        0.5,
+        0.35,
+        0.15
+      ],
+      "reference_capacity_ratio": 0.72,
+      "reserve_rate_min": 0.05,
+      "reserve_rate_max": 0.55,
+      "idle_inventory_lambda_min": 0.5,
+      "idle_inventory_lambda_max": 3.5,
+      "typical_sizes": [
+        [
+          10,
+          10
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          10,
+          20
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          30,
+          20
+        ],
+        [
+          20,
+          30
+        ],
+        [
+          40,
+          20
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          60,
+          30
+        ],
+        [
+          30,
+          60
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          80,
+          40
+        ],
+        [
+          40,
+          80
+        ],
+        [
+          80,
+          80
+        ]
+      ],
+      "random_size_ratio": 0.25,
+      "min_size_ratio": 0.3333333333333333,
+      "max_size_ratio": 3.0,
+      "min_bases": 8,
+      "max_bases": 80,
+      "min_targets": 8,
+      "max_targets": 80,
+      "fixed_bases": 50,
+      "fixed_targets": 50,
+      "total_weapons": 100,
+      "benchmark_scale": "medium",
+      "max_scenario_attempts": 40
+    },
+    "conflict": null
+  },
+  "version": "v5",
+  "root": "data\\processed\\wta_medium",
+  "map": {
+    "friendly_map": "data\\maps\\Friendly_Map.png",
+    "enemy_map": "data\\maps\\Enemy_Map.png",
+    "friendly_grid_step": 15,
+    "enemy_grid_step": 10,
+    "grid_margin": 30
+  },
+  "split": {
+    "train": 100,
+    "val": 20,
+    "test": 20,
+    "base_seed": 2026,
+    "shard_size": 128
+  },
+  "files": {
+    "train": [
+      "data\\processed\\wta_medium\\train\\part_0000.pt"
+    ],
+    "val": [
+      "data\\processed\\wta_medium\\val\\part_0000.pt"
+    ],
+    "test": [
+      "data\\processed\\wta_medium\\test\\part_0000.pt"
+    ]
+  },
+  "config": {
+    "num_weapons": 10,
+    "num_schemes": 10,
+    "demand_max": 8,
+    "inventory_max": 80,
+    "reachability_rate": 0.97,
+    "min_reachable_bases": 3,
+    "level_resource_gap": 0.15,
+    "damage_threshold_probs": [
+      0.5,
+      0.35,
+      0.15
+    ],
+    "reference_capacity_ratio": 0.72,
+    "reserve_rate_min": 0.05,
+    "reserve_rate_max": 0.55,
+    "idle_inventory_lambda_min": 0.5,
+    "idle_inventory_lambda_max": 3.5,
+    "typical_sizes": [
+      [
+        10,
+        10
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        10,
+        20
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        30,
+        20
+      ],
+      [
+        20,
+        30
+      ],
+      [
+        40,
+        20
+      ],
+      [
+        20,
+        40
+      ],
+      [
+        40,
+        40
+      ],
+      [
+        60,
+        30
+      ],
+      [
+        30,
+        60
+      ],
+      [
+        60,
+        60
+      ],
+      [
+        80,
+        40
+      ],
+      [
+        40,
+        80
+      ],
+      [
+        80,
+        80
+      ]
+    ],
+    "random_size_ratio": 0.25,
+    "min_size_ratio": 0.3333333333333333,
+    "max_size_ratio": 3.0,
+    "min_bases": 8,
+    "max_bases": 80,
+    "min_targets": 8,
+    "max_targets": 80,
+    "fixed_bases": 50,
+    "fixed_targets": 50,
+    "total_weapons": 100,
+    "benchmark_scale": "medium",
+    "max_scenario_attempts": 40
+  }
+}

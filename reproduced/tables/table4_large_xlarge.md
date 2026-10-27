@@ -1,0 +1,14 @@
+| Scale | Method | Timeout | Feasible/% | Obj. J | WR | TCR | Timeliness | Inter. ratio | Time/ms |
+|---|---|---|---|---|---|---|---|---|---|
+| LARGE | DeepWTA (Proposed) | No | 100.00 | 1.58 | 1.00 | 0.32 | 0.52 | 0.10 | 10976.44 |
+| LARGE | MultiHead-DQN | Yes | 0.00 | — | — | — | — | — | — |
+| LARGE | PointerNet-AC | No | 33.33 | 1.27 | 1.00 | 0.22 | 0.51 | 0.11 | 14546.66 |
+| LARGE | FRA-DC | No | 100.00 | 1.66 | 1.00 | 0.35 | 0.52 | 0.10 | 94399.97 |
+| LARGE | SA-MC | Yes | 0.00 | — | — | — | — | — | — |
+| LARGE | GA-MC | No | 100.00 | 1.70 | 1.00 | 0.37 | 0.52 | 0.09 | 373506.68 |
+| XLARGE | DeepWTA (Proposed) | No | 100.00 | 1.31 | 1.00 | 0.23 | 0.48 | 0.10 | 32615.00 |
+| XLARGE | MultiHead-DQN | Yes | 0.00 | — | — | — | — | — | — |
+| XLARGE | PointerNet-AC | No | 33.33 | 1.21 | 0.69 | 0.41 | 0.52 | 0.11 | 119908.10 |
+| XLARGE | FRA-DC | No | 100.00 | 1.42 | 1.00 | 0.27 | 0.48 | 0.10 | 111207.88 |
+| XLARGE | SA-MC | No | 100.00 | 1.18 | 1.04 | 0.18 | 0.48 | 0.10 | 968362.19 |
+| XLARGE | GA-MC | No | 100.00 | 1.46 | 1.04 | 0.28 | 0.49 | 0.09 | 164426.32 |
