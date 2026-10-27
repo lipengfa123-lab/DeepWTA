@@ -1,8 +1,0 @@
-{
-  "release_root": ".",
-  "file_count": 811,
-  "npz_input_count": 800,
-  "npz_solution_count": 0,
-  "csv_count": 5,
-  "sha256_manifest": "SHA256_MANIFEST.csv"
-}
