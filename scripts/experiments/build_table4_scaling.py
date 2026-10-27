@@ -8,7 +8,7 @@ from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_SUMMARY = ROOT / "dataset" / "scaling" / "analysis" / "scaling_summary_large_xlarge.csv"
+DEFAULT_SUMMARY = ROOT / "scaling" / "analysis" / "scaling_summary_large_xlarge.csv"
 
 SCALE_ORDER = ["LARGE", "XLARGE"]
 METHOD_ORDER = [
