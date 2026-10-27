@@ -1,0 +1,7 @@
+Scale,Scenario,DeepWTA-Standard,FRA-DC,GA-MC,MultiHead-DQN-E2E,PointerNet-AC-E2E,SA-MC
+LARGE,0,完成,完成,完成,错误,完成,超时
+LARGE,1,完成,完成,完成,错误,完成,超时
+LARGE,2,完成,完成,完成,错误,完成,超时
+XLARGE,0,完成,完成,完成,错误,完成,完成
+XLARGE,1,完成,完成,完成,错误,完成,完成
+XLARGE,2,完成,完成,完成,错误,完成,完成
