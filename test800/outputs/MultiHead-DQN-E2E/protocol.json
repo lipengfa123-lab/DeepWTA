@@ -1,0 +1,12 @@
+{
+  "protocol": "deepwta-e2e-learning-v1",
+  "method": "MultiHead-DQN-E2E",
+  "checkpoint": "dataset/checkpoints/multi_head_dqn_e2e/best.pt",
+  "checkpoint_sha256": "49b86a644bd04a717f8a51a0a0b8074cde93f8263723b2371854cbd9ef101d84",
+  "split": "test",
+  "count": 800,
+  "inference_only": true,
+  "optimizer_loaded": false,
+  "decision_variables": "solutions/MultiHead-DQN-E2E/*.npz",
+  "original_checkpoint": "checkpoints/learning_baselines_e2e/e2e_mhdqn_bellman_seed2026_b80000/best.pt"
+}

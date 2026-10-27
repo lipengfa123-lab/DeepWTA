@@ -1,0 +1,2 @@
+method,method_seed,scale,scenario_index,source_scenario_index,completed,timed_out,status,status_zh,return_code,hard_feasible,profile_score,WR,TCR,avg_distance,avg_interception,runtime_ms,total_runtime_ms,wall_clock_s_process,timeout_limit_s,runtime_censored,runtime_lower_bound_ms
+MultiHead-DQN-E2E,2026,XLARGE,2,2,0,0,ERROR,错误,1,,,,,,,,,10.0,3600,0,

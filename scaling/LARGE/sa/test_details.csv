@@ -1,0 +1,10 @@
+method,method_seed,scale,scenario_index,source_scenario_index,completed,timed_out,status,status_zh,return_code,hard_feasible,profile_score,WR,TCR,avg_distance,avg_interception,runtime_ms,total_runtime_ms,wall_clock_s_process,timeout_limit_s,runtime_censored,runtime_lower_bound_ms
+SA-MC,2026,LARGE,0,0,0,1,TIMEOUT,超时,124,,,,,,,,,3600.0,3600,1,3600000
+SA-MC,2027,LARGE,0,0,0,1,TIMEOUT,超时,124,,,,,,,,,3600.0,3600,1,3600000
+SA-MC,2028,LARGE,0,0,0,1,TIMEOUT,超时,124,,,,,,,,,3600.0,3600,1,3600000
+SA-MC,2026,LARGE,1,1,0,1,TIMEOUT,超时,124,,,,,,,,,3600.0,3600,1,3600000
+SA-MC,2027,LARGE,1,1,0,1,TIMEOUT,超时,124,,,,,,,,,3600.0,3600,1,3600000
+SA-MC,2028,LARGE,1,1,0,1,TIMEOUT,超时,124,,,,,,,,,3600.0,3600,1,3600000
+SA-MC,2026,LARGE,2,2,0,1,TIMEOUT,超时,124,,,,,,,,,3600.0,3600,1,3600000
+SA-MC,2027,LARGE,2,2,0,1,TIMEOUT,超时,124,,,,,,,,,3600.0,3600,1,3600000
+SA-MC,2028,LARGE,2,2,0,1,TIMEOUT,超时,124,,,,,,,,,3600.0,3600,1,3600000

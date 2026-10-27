@@ -1,0 +1,23 @@
+{
+  "release": "DeepWTA TEST-800",
+  "dataset": "wta_e2e_v1",
+  "split": "test",
+  "case_count": 800,
+  "input_npz_files": 800,
+  "methods": [
+    "DeepWTA-Standard",
+    "MultiHead-DQN-E2E",
+    "PointerNet-AC-E2E",
+    "FRA-DC",
+    "SA-MC",
+    "GA-MC"
+  ],
+  "search_baseline_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "decision_variable_files": 9600,
+  "sha256_manifest": "SHA256_MANIFEST.csv",
+  "checkpoint_manifest": "../CHECKPOINT_SHA256.csv"
+}

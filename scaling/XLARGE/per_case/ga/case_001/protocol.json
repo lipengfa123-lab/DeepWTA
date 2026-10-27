@@ -1,0 +1,37 @@
+{
+  "protocol": "deepwta-native-three-seed-v2",
+  "dataset_manifest": "data/splits/wta_xlarge.json",
+  "split": "test",
+  "count": 1,
+  "methods": [
+    "ga"
+  ],
+  "display_labels": [
+    "GA-MC"
+  ],
+  "algorithm_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "base_budget_profile": "pilot",
+  "fra_dc_local_override": {
+    "max_iterations": 250,
+    "stall_iterations": 200
+  },
+  "effective_budgets": {
+    "ga": {
+      "population_size": 20,
+      "generations": 60,
+      "stall_generations": 15,
+      "mutation_probability": 0.2,
+      "scheme_mutation_probability": 0.35,
+      "crossover_probability": 0.8,
+      "elite_count": 2,
+      "tournament_size": 2,
+      "trace_every": 2
+    }
+  },
+  "global_config_modified": false,
+  "decision_variables": "solutions/<method>__seed<seed>/*.npz"
+}

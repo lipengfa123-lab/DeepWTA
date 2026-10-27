@@ -1,0 +1,5 @@
+release native budget protocol:
+  base profile : pilot
+  SA-MC   : {'max_iterations': 1200, 'stall_iterations': 250, 'min_improvement': 1e-06, 'trace_every': 25, 'temperature_start': None, 'temperature_end_ratio': 0.001, 'calibration_samples': 20, 'target_initial_acceptance': 0.8, 'min_fraction_before_stall': 0.4}
+  seeds        : [2026, 2027, 2028]
+release-native:test:   0%|          | 0/1 [00:00<?, ?it/s]

@@ -1,0 +1,13 @@
+release native budget protocol:
+  base profile : pilot
+  FRA-DC  : {'max_iterations': 250, 'stall_iterations': 200, 'min_improvement': 1e-05, 'trace_every': 25}
+  seeds        : [2026, 2027, 2028]
+release-native:test:   0%|          | 0/1 [00:00<?, ?it/s]release-native:test: 100%|██████████| 1/1 [05:36<00:00, 336.17s/it]release-native:test: 100%|██████████| 1/1 [05:36<00:00, 336.17s/it]
+                    hard_feasible  ...     runtime_ms
+method method_seed                 ...               
+FRA-DC 2026                   1.0  ...   82273.326662
+       2027                   1.0  ...  124203.504592
+       2028                   1.0  ...  127146.797486
+
+[3 rows x 4 columns]
+results/experiment2_scaling_3case_timeout1h_v1/XLARGE/per_case/fra_dc/case_001

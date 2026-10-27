@@ -1,0 +1,8 @@
+{
+  "scheme_match_rate": 1.0,
+  "valid_controlled_quality_comparison": true,
+  "runtime_semantics": {
+    "DeepWTA-Standard": "network + standard solver",
+    "DQN/Pointer AllocationOnly": "allocation policy only; frozen scheme generation excluded"
+  }
+}

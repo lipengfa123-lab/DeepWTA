@@ -1,0 +1,13 @@
+release native budget protocol:
+  base profile : pilot
+  SA-MC   : {'max_iterations': 1200, 'stall_iterations': 250, 'min_improvement': 1e-06, 'trace_every': 25, 'temperature_start': None, 'temperature_end_ratio': 0.001, 'calibration_samples': 20, 'target_initial_acceptance': 0.8, 'min_fraction_before_stall': 0.4}
+  seeds        : [2026, 2027, 2028]
+release-native:test:   0%|          | 0/1 [00:00<?, ?it/s]release-native:test: 100%|██████████| 1/1 [53:42<00:00, 3222.28s/it]release-native:test: 100%|██████████| 1/1 [53:42<00:00, 3222.28s/it]
+                    hard_feasible  ...    runtime_ms
+method method_seed                 ...              
+SA-MC  2026                   1.0  ...  1.165513e+06
+       2027                   1.0  ...  9.132517e+05
+       2028                   1.0  ...  1.140756e+06
+
+[3 rows x 4 columns]
+results/experiment2_scaling_3case_timeout1h_v1/XLARGE/per_case/sa/case_000

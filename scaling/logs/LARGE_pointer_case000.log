@@ -1,0 +1,11 @@
+
+release-PointerNet-AC-E2E:test:   0%|          | 0/1 [00:00<?, ?it/s]
+release-PointerNet-AC-E2E:test: 100%|██████████| 1/1 [00:16<00:00, 16.93s/it]
+release-PointerNet-AC-E2E:test: 100%|██████████| 1/1 [00:16<00:00, 16.93s/it]
+hard_feasible               0.000000
+profile_score               1.341757
+TCR          0.230820
+WR        0.990000
+total_runtime_ms        14927.922699
+dtype: float64
+results/experiment2_scaling_3case_timeout1h_v1/LARGE/per_case/pointer/case_000

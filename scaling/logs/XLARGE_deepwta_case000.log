@@ -1,0 +1,11 @@
+
+release-DeepWTA:test:   0%|          | 0/1 [00:00<?, ?it/s]
+release-DeepWTA:test: 100%|██████████| 1/1 [00:32<00:00, 32.76s/it]
+release-DeepWTA:test: 100%|██████████| 1/1 [00:32<00:00, 32.76s/it]
+hard_feasible               1.000000
+profile_score               1.325509
+TCR          0.239599
+WR        1.000000
+total_runtime_ms        32614.998031
+dtype: float64
+results/experiment2_scaling_3case_timeout1h_v1/XLARGE/per_case/deepwta/case_000

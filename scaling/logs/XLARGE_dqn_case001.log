@@ -1,0 +1,13 @@
+
+release-MultiHead-DQN-E2E:test:   0%|          | 0/1 [00:00<?, ?it/s]
+release-MultiHead-DQN-E2E:test:   0%|          | 0/1 [00:07<?, ?it/s]
+Traceback (most recent call last):
+  File "scripts/experiments/evaluate_e2e_release.py", line 91, in <module>
+    if __name__=="__main__": main()
+  File "scripts/experiments/evaluate_e2e_release.py", line 63, in main
+    solution,scheme_ms,allocation_ms,sd,ad,truncated=runner(instance,built,device)
+  File "scripts/experiments/evaluate_e2e_learning_baselines.py", line 138, in run_dqn
+    state = alloc_encoder.encode(env)
+  File "src/deepwta/baselines/learning/multi_head_dqn.py", line 82, in encode
+    raise ValueError(
+ValueError: num_bases=200 exceeds configured max_bases=80

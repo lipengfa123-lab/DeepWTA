@@ -1,0 +1,13 @@
+{
+  "protocol": "deepwta-allocation-only-v1",
+  "method": "MultiHead-DQN-AllocationOnly",
+  "checkpoint": "dataset/checkpoints/multi_head_dqn_allocation_only/best.pt",
+  "checkpoint_sha256": "f012900317a6299584c3f07364246b4bb75299f0973eefc78e7a80754a155e67",
+  "scheme_cache": null,
+  "split": "val",
+  "count": 200,
+  "inference_only": true,
+  "runtime_excludes_scheme_generation": true,
+  "original_checkpoint": "checkpoints/allocation_only/dqn/allocation_only_dqn_deepwta_scheme_seed2026_b80000/best.pt",
+  "scheme_cache_note": "not redistributed; the frozen-scheme audit result is in val200_allocation_only/analysis/scheme_match_audit.csv"
+}

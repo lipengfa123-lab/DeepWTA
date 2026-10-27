@@ -1,0 +1,1 @@
+Note: All methods use the same frozen DeepWTA strike plan. For allocation-only methods, the reported time excludes frozen strike-plan generation.

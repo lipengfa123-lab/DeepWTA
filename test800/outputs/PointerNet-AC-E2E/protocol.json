@@ -1,0 +1,12 @@
+{
+  "protocol": "deepwta-e2e-learning-v1",
+  "method": "PointerNet-AC-E2E",
+  "checkpoint": "dataset/checkpoints/pointer_net_ac_e2e/best.pt",
+  "checkpoint_sha256": "748fc88c1058e3358f66d9357e366aca1b071d8d31545284ddb05fa58d2513a5",
+  "split": "test",
+  "count": 800,
+  "inference_only": true,
+  "optimizer_loaded": false,
+  "decision_variables": "solutions/PointerNet-AC-E2E/*.npz",
+  "original_checkpoint": "checkpoints/learning_baselines_e2e/e2e_pointer_seed2026_b80000/best.pt"
+}

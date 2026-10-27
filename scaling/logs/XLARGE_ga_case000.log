@@ -1,0 +1,13 @@
+release native budget protocol:
+  base profile : pilot
+  GA-MC   : {'population_size': 20, 'generations': 60, 'stall_generations': 15, 'mutation_probability': 0.2, 'scheme_mutation_probability': 0.35, 'crossover_probability': 0.8, 'elite_count': 2, 'tournament_size': 2, 'trace_every': 2}
+  seeds        : [2026, 2027, 2028]
+release-native:test:   0%|          | 0/1 [00:00<?, ?it/s]release-native:test: 100%|██████████| 1/1 [12:35<00:00, 755.36s/it]release-native:test: 100%|██████████| 1/1 [12:35<00:00, 755.36s/it]
+                    hard_feasible  ...     runtime_ms
+method method_seed                 ...               
+GA-MC  2026                   1.0  ...  250492.860323
+       2027                   1.0  ...  255589.142744
+       2028                   1.0  ...  246557.247156
+
+[3 rows x 4 columns]
+results/experiment2_scaling_3case_timeout1h_v1/XLARGE/per_case/ga/case_000

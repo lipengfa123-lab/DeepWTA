@@ -1,0 +1,13 @@
+{
+  "protocol": "deepwta-allocation-only-v1",
+  "method": "PointerNet-AC-AllocationOnly",
+  "checkpoint": "dataset/checkpoints/pointer_net_ac_allocation_only/best.pt",
+  "checkpoint_sha256": "9dc80af7e581092421db8bd3355a6e181229b9fb63ea5858dcd6b65370603ed5",
+  "scheme_cache": null,
+  "split": "val",
+  "count": 200,
+  "inference_only": true,
+  "runtime_excludes_scheme_generation": true,
+  "original_checkpoint": "checkpoints/allocation_only/pointer/allocation_only_pointer_deepwta_scheme_seed2026_b80000/best.pt",
+  "scheme_cache_note": "not redistributed; the frozen-scheme audit result is in val200_allocation_only/analysis/scheme_match_audit.csv"
+}

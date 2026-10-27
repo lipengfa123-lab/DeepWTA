@@ -1,0 +1,50 @@
+[
+  {
+    "method": "DeepWTA-Standard",
+    "path": "dataset/test800/outputs/DeepWTA-Standard/test_details.csv",
+    "raw_rows": 800,
+    "unique_scenarios": 800,
+    "selection_score": 800700,
+    "original_path": "results/release/test800_final/main/analysis/all_result_rows.csv"
+  },
+  {
+    "method": "FRA-DC",
+    "path": "dataset/test800/outputs/FRA-DC/test_details.csv",
+    "raw_rows": 2400,
+    "unique_scenarios": 800,
+    "selection_score": 800700,
+    "original_path": "results/release/test800_final/main/analysis/all_result_rows.csv"
+  },
+  {
+    "method": "SA-MC",
+    "path": "dataset/test800/outputs/SA-MC/test_details.csv",
+    "raw_rows": 2400,
+    "unique_scenarios": 800,
+    "selection_score": 800700,
+    "original_path": "results/release/test800_final/main/analysis/all_result_rows.csv"
+  },
+  {
+    "method": "GA-MC",
+    "path": "dataset/test800/outputs/GA-MC/test_details.csv",
+    "raw_rows": 2400,
+    "unique_scenarios": 800,
+    "selection_score": 800700,
+    "original_path": "results/release/test800_final/main/analysis/all_result_rows.csv"
+  },
+  {
+    "method": "MultiHead-DQN-E2E",
+    "path": "dataset/test800/outputs/MultiHead-DQN-E2E/test_details.csv",
+    "raw_rows": 800,
+    "unique_scenarios": 800,
+    "selection_score": 800700,
+    "original_path": "results/release/test800_final/main/analysis/all_result_rows.csv"
+  },
+  {
+    "method": "PointerNet-AC-E2E",
+    "path": "dataset/test800/outputs/PointerNet-AC-E2E/test_details.csv",
+    "raw_rows": 800,
+    "unique_scenarios": 800,
+    "selection_score": 800700,
+    "original_path": "results/release/test800_final/main/analysis/all_result_rows.csv"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "protocol": "deepwta-native-three-seed-v2",
+  "dataset_manifest": "data/splits/wta_e2e_v1.json",
+  "split": "test",
+  "count": 800,
+  "methods": [
+    "sa"
+  ],
+  "display_labels": [
+    "SA-MC"
+  ],
+  "algorithm_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "base_budget_profile": "pilot",
+  "fra_dc_local_override": {
+    "max_iterations": 250,
+    "stall_iterations": 200
+  },
+  "effective_budgets": {
+    "sa": {
+      "max_iterations": 1200,
+      "stall_iterations": 250,
+      "min_improvement": 1e-06,
+      "trace_every": 25,
+      "temperature_start": null,
+      "temperature_end_ratio": 0.001,
+      "calibration_samples": 20,
+      "target_initial_acceptance": 0.8,
+      "min_fraction_before_stall": 0.4
+    }
+  },
+  "global_config_modified": false,
+  "decision_variables": "solutions/<method>__seed<seed>/*.npz"
+}
