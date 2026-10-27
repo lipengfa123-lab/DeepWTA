@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = PROJECT_ROOT / "dataset" / "fig6_case_study"
+DATA_DIR = PROJECT_ROOT / "fig6_case_study"
 FIGURE_DIR = PROJECT_ROOT / "results" / "figures" / "fig6_case_study"
 MANIFEST = PROJECT_ROOT / "data" / "splits" / "wta_e2e_v1.json"
 RENDERER = PROJECT_ROOT / "scripts" / "visualization" / "plot_saved_wta_solution_map.py"
