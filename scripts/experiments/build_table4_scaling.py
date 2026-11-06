@@ -68,7 +68,9 @@ def build(rows: list[dict]) -> list[dict]:
                 "Scale": scale,
                 "Method": LABEL[method],
                 "Timeout": timeout,
-                "Feasible/%": "0.00" if timeout == "Yes" else pct(success),
+                "Feasible/%": "—" if (scale, method) in {
+                    ("LARGE", "SA-MC"), ("XLARGE", "MultiHead-DQN-E2E")
+                } else ("0.00" if timeout == "Yes" else pct(success)),
                 "Obj. J": fmt(number(r.get("J_FeasibleMean"))),
                 "WR": fmt(number(r.get("WR"))),
                 "TCR": fmt(number(r.get("TCR"))),
@@ -100,6 +102,14 @@ def main() -> None:
     ]
     for row in table:
         lines.append("| " + " | ".join(str(row[f]) for f in fields) + " |")
+    lines.extend([
+        "",
+        "Note: Following the paper's grouping, Timeout=Yes is a pooled display label "
+        "for rows with no completed cases, including both timeouts and execution errors. "
+        "It does not mean that every failed run exceeded the time limit.",
+        "The source summary retains TimeoutCases and ErrorCases separately; "
+        "neither count is changed by this table export.",
+    ])
     (args.output_dir / "table4_large_xlarge.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     print("\n".join(lines))
