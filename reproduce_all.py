@@ -45,6 +45,12 @@ def figures() -> None:
 
 
 def tables() -> None:
+    for name in ("table2_test800.md", "table3_val200.md"):
+        path = ROOT / "reproduced" / "tables" / name
+        if path.is_file():
+            print(path.read_text(encoding="utf-8-sig"), flush=True)
+        else:
+            print(f"[skip] missing saved table: {path}", flush=True)
     script = ROOT / "scripts" / "experiments" / "build_table4_scaling.py"
     if not script.is_file():
         print("[skip] missing build_table4_scaling.py")
